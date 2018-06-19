@@ -1,5 +1,6 @@
 # Vector clock
 From Wikipedia (https://en.wikipedia.org/wiki/Vector_clock)
+
 A vector clock is an algorithm for generating a partial ordering of events in a distributed system and detecting causality violations. Just as in Lamport timestamps, interprocess messages contain the state of the sending process's logical clock.  A vector clock of a system of _N_ processes is an array/vector of _N_ logical clocks, one clock per process; a local "smallest possible values" copy of the global clock-array is kept in each process, with the following rules for clock updates:
 1. Initially, all clocks are zero.
 1. Each time a process experiences an internal event, it increments its own logical clock in the vector by one.
