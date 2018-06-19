@@ -2,9 +2,7 @@ package com.javacreed.api.veclock;
 
 import java.util.UUID;
 
-import javax.annotation.concurrent.Immutable;
-
-import com.google.common.base.Preconditions;
+import net.jcip.annotations.Immutable;
 
 @Immutable
 public class StringNode implements Node, Comparable<StringNode> {

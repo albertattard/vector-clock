@@ -6,9 +6,7 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.TreeMap;
 
-import javax.annotation.concurrent.Immutable;
-
-import com.google.common.base.Preconditions;
+import net.jcip.annotations.Immutable;
 
 /**
  * A basic implementation of a Vector Clock which uses {@link StringNode} as node label and {@link LongVersion} as the

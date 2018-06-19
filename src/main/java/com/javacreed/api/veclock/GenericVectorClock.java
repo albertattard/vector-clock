@@ -7,9 +7,7 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.function.Supplier;
 
-import javax.annotation.concurrent.Immutable;
-
-import com.google.common.base.Preconditions;
+import net.jcip.annotations.Immutable;
 
 /**
  * A generic version of the {@link VectorClock} implementation which allows different implementations of {@link Version}

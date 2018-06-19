@@ -3,9 +3,7 @@ package com.javacreed.api.veclock;
 import java.util.UUID;
 import java.util.regex.Pattern;
 
-import javax.annotation.concurrent.Immutable;
-
-import com.google.common.base.Preconditions;
+import net.jcip.annotations.Immutable;
 
 @Immutable
 public class UuidNode implements Node, Comparable<UuidNode> {
