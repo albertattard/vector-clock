@@ -1,3 +1,6 @@
+Build status: [![CircleCI](https://circleci.com/gh/javacreed/vector-clock.svg?style=svg)](https://circleci.com/gh/javacreed/vector-clock)
+
+
 # Vector clock
 From Wikipedia (https://en.wikipedia.org/wiki/Vector_clock)
 
